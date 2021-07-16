@@ -1,0 +1,191 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header {
+    padding: 0 0px 0 15px;
+  }
+  .menu li {
+    margin-left: 0;
+  }
+  .register-btn {
+    margin-left: 0;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+  }
+  .banner-content a {
+    font-size: 18px;
+  }
+  .banner-content {
+    padding-top: 25px;
+    margin-bottom: 25px;
+  }
+  .event-content h2 {
+    font-size: 28px;
+  }
+  .attend-heading h2 {
+    font-size: 28px;
+  }
+  .attend-heading h3 {
+    font-size: 22px;
+  }
+  .keynote-heading h1 {
+    font-size: 28px;
+  }
+  .speaker-team {
+    margin-top: 35px;
+  }
+  .team-heading h2 {
+    font-size: 28px;
+  }
+  .f-copy {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .agenda-row::before {
+    left: 10px;
+  }
+  .as {
+    text-align: left !important;
+    min-height: 0;
+  }
+  .agenda-single-left {
+    padding-right: 0;
+    margin: 10px auto;
+    padding-left: 15px;
+  }
+  .agenda-single-right {
+    padding-left: 15px;
+    margin: 20px auto;
+  }
+  .agenda-single-left::before,
+  .agenda-single-right::before {
+    transform: rotate(135deg);
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+  }
+  .as .agenda-meta {
+    font-size: 16px;
+  }
+  .as .agenda-desc {
+    font-size: 24px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    padding: 0 0px 0 15px;
+  }
+  .menu li {
+    margin-left: 0;
+  }
+  .register-btn {
+    margin-left: 0;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+  }
+  .banner-content a {
+    font-size: 18px;
+  }
+  .banner-content {
+    padding-top: 25px;
+    margin-bottom: 25px;
+  }
+  .event-content h2 {
+    font-size: 28px;
+  }
+  .attend-heading h2 {
+    font-size: 28px;
+  }
+  .attend-heading h3 {
+    font-size: 22px;
+  }
+  .keynote-heading h1 {
+    font-size: 28px;
+  }
+  .speaker-team {
+    margin-top: 35px;
+  }
+  .team-heading h2 {
+    font-size: 28px;
+  }
+  .f-copy {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .agenda-row::before {
+    left: 10px;
+  }
+  .as {
+    text-align: left !important;
+    min-height: 0;
+  }
+  .agenda-single-left {
+    padding-right: 0;
+    margin: 10px auto;
+    padding-left: 15px;
+  }
+  .agenda-single-right {
+    padding-left: 15px;
+    margin: 20px auto;
+  }
+  .agenda-single-left::before,
+  .agenda-single-right::before {
+    transform: rotate(135deg);
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+  }
+  .as .agenda-meta {
+    font-size: 16px;
+  }
+  .as .agenda-desc {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .banner-content a {
+    font-size: 18px;
+  }
+  .banner-img {
+    margin-top: 34%;
+  }
+  .banner {
+    padding: 20px 0;
+  }
+  .agenda-single-left {
+    padding-right: 20px !important;
+  }
+  .agenda-single-right {
+    padding-left: 20px;
+  }
+  .as .agenda-meta {
+    font-size: 18px;
+  }
+  .as .agenda-desc {
+    font-size: 28px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner-img {
+    margin-top: 25%;
+  }
+  .banner {
+    padding: 20px 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
